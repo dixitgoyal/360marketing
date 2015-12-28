@@ -1,0 +1,119 @@
+body
+{
+font-family: 'Open Sans', sans-serif;	
+}
+
+.main_body .row .col-md-4
+{
+	text-align:center;
+	padding:0px;
+    border:1px outset black;
+    border-radius:10px;
+	overflow:hidden;
+    box-shadow:1px 0px 1px black,-1px 0px 1px black,0px -1px 1px black,0px 1px 1px black;
+	}
+
+.main_body .row .col-md-4 .template_box .details_box div
+{
+	width:50%;
+	float:left;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	border-top:1px solid black;
+	
+	
+}
+
+.main_body .row .col-md-4 .template_box .details_box div#demo
+{
+	background:blue;
+	color:white;
+}
+
+.main_body .row .col-md-4 .template_box .details_box div#select_template
+{
+	background:red;
+	cursor:pointer;
+	color:white;
+	border-left:1px solid black;
+}
+
+a:link div
+{
+	color:white;
+}
+a:hover div
+{
+	color:white;
+}
+a:visited div
+{
+	color:white;
+}
+
+a:active div
+{
+	color:white;
+}
+
+.caret-up 
+{
+	width: 0; 
+	height: 0; 
+	border-left: 4px solid rgba(0, 0, 0, 0);
+	border-right: 4px solid rgba(0, 0, 0, 0);
+	border-bottom: 4px solid;
+	display: inline-block;
+	margin-left: 2px;
+	vertical-align: middle;
+}
+
+.top_area
+{
+	margin-top:200px;
+}
+
+.top_area .search_box form input 
+{
+	padding:30px;
+	font-size:25px;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+
+	}
+
+.top_area .search_box form button
+{
+	padding:16px;
+	font-size:20px;
+}
+
+.top_area .search_box form .col-md-7,.col-md-3
+{
+	padding:0px;
+}
+
+.top_area .search_box form #fix_website_name
+{
+	background:#c0bebe;
+	font-size:20px;
+	padding:17px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.top_area #search_result
+{
+	margin-top:50px;
+	font-size:20px;
+	color:black;
+}
+
+#ajax_loader img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 190px;
+}
